@@ -3,7 +3,7 @@ import random
 import json
 
 # Load the Excel file
-excel_file = 'KBC.xlsx'
+excel_file = 'easy.xlsx'
 
 # Initialize an empty list to store the JSON objects
 json_objects = []
@@ -50,7 +50,7 @@ for sheet_name, df in all_sheets.items():
         # Increment the counter
 
 # Save the JSON objects to a file
-output_file = 'KBC.json'
+output_file = 'easy.json'
 with open(output_file, 'w', encoding='utf-8') as f:
     json.dump(json_objects, f, indent=4)
 
