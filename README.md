@@ -1,2 +1,8 @@
 KBC.xlsx  sample file
-convertExcelToJson : input KBC.xlsx  output KBS.json
+RUN script.py : 
+
+input:
+KBC.xlsx
+output :
+easy.json 
+difficult.json
